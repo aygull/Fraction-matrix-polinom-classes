@@ -1,0 +1,53 @@
+﻿  Lab01.cpp
+c:\users\admin\source\repos\lab01\lab01\lab01.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\admin\source\repos\lab01\lab01\fraction.h(30): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  c:\users\admin\source\repos\lab01\lab01\fraction.h(26): note: while compiling class template member function 'Fraction<int>::Fraction(void)'
+  c:\users\admin\source\repos\lab01\lab01\lab01.cpp(14): note: see reference to function template instantiation 'Fraction<int>::Fraction(void)' being compiled
+  c:\users\admin\source\repos\lab01\lab01\lab01.cpp(14): note: see reference to class template instantiation 'Fraction<int>' being compiled
+c:\users\admin\source\repos\lab01\lab01\fraction.h(31): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+c:\users\admin\source\repos\lab01\lab01\matrix.h(26): warning C4018: '<': signed/unsigned mismatch
+  c:\users\admin\source\repos\lab01\lab01\matrix.h(23): note: while compiling class template member function 'Matrix<T>::Matrix(int)'
+          with
+          [
+              T=int
+          ]
+  c:\users\admin\source\repos\lab01\lab01\lab01.cpp(17): note: see reference to function template instantiation 'Matrix<T>::Matrix(int)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\admin\source\repos\lab01\lab01\lab01.cpp(17): note: see reference to class template instantiation 'Matrix<T>' being compiled
+          with
+          [
+              T=int
+          ]
+c:\users\admin\source\repos\lab01\lab01\matrix.h(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\source\repos\lab01\lab01\matrix.h(84): warning C4018: '<': signed/unsigned mismatch
+  c:\users\admin\source\repos\lab01\lab01\matrix.h(80): note: while compiling class template member function 'Matrix<T> Matrix<T>::operator *(Matrix<T>)'
+          with
+          [
+              T=int
+          ]
+  c:\users\admin\source\repos\lab01\lab01\lab01.cpp(20): note: see reference to function template instantiation 'Matrix<T> Matrix<T>::operator *(Matrix<T>)' being compiled
+          with
+          [
+              T=int
+          ]
+c:\users\admin\source\repos\lab01\lab01\matrix.h(86): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\source\repos\lab01\lab01\matrix.h(89): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\source\repos\lab01\lab01\matrix.h(53): warning C4018: '<': signed/unsigned mismatch
+  c:\users\admin\source\repos\lab01\lab01\lab01.cpp(18): note: see reference to function template instantiation 'std::ostream &operator <<<T>(std::ostream &,const Matrix<T> &)' being compiled
+          with
+          [
+              T=int
+          ]
+c:\users\admin\source\repos\lab01\lab01\matrix.h(55): warning C4018: '<': signed/unsigned mismatch
+  Lab01.vcxproj -> C:\Users\Admin\source\repos\Lab01\Debug\Lab01.exe
